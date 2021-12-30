@@ -1,0 +1,81 @@
+@model SaudeLivre.Models.Blog
+
+@{
+    ViewData["Title"]="Edit Blog";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-warning bg-dark border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Cliente" asp-action="Index">Modo Administrador</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" asp-area="" asp-controller="Cliente" asp-action="Index">Gerenciar Clientes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-warning" asp-area="" asp-controller="Blog" asp-action="Index">Gerenciar Blog</a>
+                        </li>
+            
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+<h4>Blog</h4>
+<hr />
+<div class="row">
+    <div class="col-md-7">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdBlog" />
+            <div class="form-group">
+                <label asp-for="Titulo" class="control-label">Título</label>
+                <input asp-for="Titulo" class="form-control" />
+                <span asp-validation-for="Titulo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TextoInicial" class="control-label">Introdução</label>
+                <textarea asp-for="TextoInicial" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="TextoInicial" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TextoSecundario" class="control-label">Texto Principal</label>
+               <textarea asp-for="TextoSecundario" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="TextoSecundario" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImagemInicial" class="control-label">Imagem da Introdução</label>
+                <input asp-for="ImagemInicial" class="form-control" />
+                <span asp-validation-for="ImagemInicial" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImagemSecundaria" class="control-label">Imagem do Texto Principal</label>
+                <input asp-for="ImagemSecundaria" class="form-control" />
+                <span asp-validation-for="ImagemSecundaria" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+</body>
+</html>

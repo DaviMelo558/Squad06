@@ -1,0 +1,55 @@
+@model SaudeLivre.Models.Cliente
+
+@{
+    ViewData["Title"]="Create Cliente";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+<h1>Curso: Atendimento e Etiqueta ao Público LGBT+</h1>
+<hr/>
+<h3>Como conseguir o certificado do nosso curso?</h3>
+<p class="text-justify" style="font-size: 1rem;">
+Receba por email o ebook do nosso curso após preencher o formulário abaixo. Leia o ebook com atenção, no seu tempo e aproveite esse conhecimento. Por fim envie para o email SaudeLivre@gmail.com um texto dissertativo argumentativo sobre o que você aprendeu e como pretende implementar esse conhecimento em seu dia-a-dia. Utilize exemplos do seu trabalho, situações ocorridas, citações das mais diversas áreas e fique a vontade com relação ao número de linhas. Nossa equipe irá avaliar se você compreendeu a essencia do que o curso tentou transmitir, atribuir uma nota e emitir um certificado direto no seu email. Notas superiores a 9 possuem um certificado especial de execelência. 
+</p>
+<hr/>
+<h4>Inscreva-se</h4>
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cpf" class="control-label"></label>
+                <input asp-for="Cpf" class="form-control" />
+                <span asp-validation-for="Cpf" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Voltar a Página Inicial</a>
+</div>
+
+</body>
+</html>
