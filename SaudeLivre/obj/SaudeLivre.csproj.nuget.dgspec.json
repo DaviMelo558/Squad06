@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\SaudeLivre.csproj": {}
+    "C:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\SaudeLivre.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\SaudeLivre.csproj": {
+    "C:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\SaudeLivre.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\SaudeLivre.csproj",
+        "projectUniqueName": "C:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\SaudeLivre.csproj",
         "projectName": "SaudeLivre",
-        "projectPath": "C:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\SaudeLivre.csproj",
-        "packagesPath": "C:\\Users\\Davi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\obj\\",
+        "projectPath": "C:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\SaudeLivre.csproj",
+        "packagesPath": "C:\\Users\\jr_ge\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Davi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jr_ge\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -72,6 +69,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.13, 5.0.13]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -80,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\SaudeLivre.csproj",
+  "FilePath": "c:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\SaudeLivre.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,108 +15619,108 @@
   "RootNamespace": "SaudeLivre",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\Views\\Cliente\\Create.cshtml",
-      "TargetPath": "Views\\Cliente\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\Views\\Blog\\Edit.cshtml",
-      "TargetPath": "Views\\Blog\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\Views\\Cliente\\Index.cshtml",
-      "TargetPath": "Views\\Cliente\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\Views\\Blog\\Delete.cshtml",
-      "TargetPath": "Views\\Blog\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\Views\\Home\\SobreNos.cshtml",
-      "TargetPath": "Views\\Home\\SobreNos.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\Views\\Cliente\\Details.cshtml",
+      "FilePath": "c:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\Views\\Cliente\\Details.cshtml",
       "TargetPath": "Views\\Cliente\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\Views\\Blog\\Create.cshtml",
-      "TargetPath": "Views\\Blog\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\Views\\Cliente\\Edit.cshtml",
-      "TargetPath": "Views\\Cliente\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\Views\\Home\\BlogList.cshtml",
-      "TargetPath": "Views\\Home\\BlogList.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\Views\\Home\\Details.cshtml",
+      "FilePath": "c:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\Views\\Home\\Details.cshtml",
       "TargetPath": "Views\\Home\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\Views\\Home\\Create.cshtml",
-      "TargetPath": "Views\\Home\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\Views\\Blog\\Details.cshtml",
-      "TargetPath": "Views\\Blog\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\Views\\Blog\\Index.cshtml",
+      "FilePath": "c:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\Views\\Blog\\Index.cshtml",
       "TargetPath": "Views\\Blog\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Davi\\Desktop\\Squad06\\SaudeLivre\\Views\\Cliente\\Delete.cshtml",
+      "FilePath": "c:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\Views\\Home\\BlogList.cshtml",
+      "TargetPath": "Views\\Home\\BlogList.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\Views\\Cliente\\Delete.cshtml",
       "TargetPath": "Views\\Cliente\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\Views\\Blog\\Delete.cshtml",
+      "TargetPath": "Views\\Blog\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\Views\\Blog\\Edit.cshtml",
+      "TargetPath": "Views\\Blog\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\Views\\Blog\\Create.cshtml",
+      "TargetPath": "Views\\Blog\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\Views\\Cliente\\Edit.cshtml",
+      "TargetPath": "Views\\Cliente\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\Views\\Cliente\\Index.cshtml",
+      "TargetPath": "Views\\Cliente\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\Views\\Home\\Create.cshtml",
+      "TargetPath": "Views\\Home\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\Views\\Blog\\Details.cshtml",
+      "TargetPath": "Views\\Blog\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\Views\\Cliente\\Create.cshtml",
+      "TargetPath": "Views\\Cliente\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\Views\\Home\\SobreNos.cshtml",
+      "TargetPath": "Views\\Home\\SobreNos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     }
   ],
