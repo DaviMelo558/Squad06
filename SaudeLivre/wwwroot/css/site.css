@@ -1,15 +1,21 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-a.navbar-brand {
+nav > a {
     white-space: normal;
     text-align: center;
-    word-break: break-all;
+    word-break: keep-all;
+    color: #fff;
 }
 
 /* Provide sufficient contrast against white background */
 a {
-    color: #0366d6;
+    color: #333;
+}
+
+nav > a :hover {
+    color: #000;
+    text-decoration: underline;
 }
 
 .btn-primary {
@@ -72,15 +78,17 @@ body {
     line-height: 60px; /* Vertically center the text there */
 }
 
-div.card {
-    margin: 40px;
+footer .container {
+    display: flex;
+    justify-content: center;
 }
 
-.big {
-    font-size: 1.1rem;
+.big::first-letter{
+    font-size: 1.4rem;
     color: #8a2be2;
-    text-indent: 30px;
+    /* text-indent: 30px; */
     /* background: #f00; */
+    font-weight: bold;
 }
 
 section.container {
@@ -111,4 +119,32 @@ table tr:nth-child(even) {
 table tr:hover {
     background-color: #777;
 }
+
+.flags {
+    justify-content: space-evenly;
+}
+
+.responsive {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border: 1px solid #000;
+}
+
+.item {
+    margin: 20px;
+}
+
+.item-sobre {
+    margin: 20px;
+    max-width: 300px;
+    min-height: 190px;
+    text-align: center;
+}
+
+.item > h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
 

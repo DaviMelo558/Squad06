@@ -451,7 +451,6 @@ C:\Users\jr_ge\Desktop\Projeto Social\Squad06\SaudeLivre\bin\Debug\net5.0\SaudeL
 C:\Users\jr_ge\Desktop\Projeto Social\Squad06\SaudeLivre\bin\Debug\net5.0\SaudeLivre.runtimeconfig.json
 C:\Users\jr_ge\Desktop\Projeto Social\Squad06\SaudeLivre\bin\Debug\net5.0\SaudeLivre.runtimeconfig.dev.json
 C:\Users\jr_ge\Desktop\Projeto Social\Squad06\SaudeLivre\bin\Debug\net5.0\SaudeLivre.dll
-C:\Users\jr_ge\Desktop\Projeto Social\Squad06\SaudeLivre\bin\Debug\net5.0\ref\SaudeLivre.dll
 C:\Users\jr_ge\Desktop\Projeto Social\Squad06\SaudeLivre\bin\Debug\net5.0\SaudeLivre.pdb
 C:\Users\jr_ge\Desktop\Projeto Social\Squad06\SaudeLivre\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Antiforgery.dll
 C:\Users\jr_ge\Desktop\Projeto Social\Squad06\SaudeLivre\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
@@ -888,3 +887,4 @@ C:\Users\jr_ge\Desktop\Projeto Social\Squad06\SaudeLivre\obj\Debug\net5.0\SaudeL
 C:\Users\jr_ge\Desktop\Projeto Social\Squad06\SaudeLivre\obj\Debug\net5.0\ref\SaudeLivre.dll
 C:\Users\jr_ge\Desktop\Projeto Social\Squad06\SaudeLivre\obj\Debug\net5.0\SaudeLivre.pdb
 C:\Users\jr_ge\Desktop\Projeto Social\Squad06\SaudeLivre\obj\Debug\net5.0\SaudeLivre.genruntimeconfig.cache
+C:\Users\jr_ge\Desktop\Projeto Social\Squad06\SaudeLivre\obj\Debug\net5.0\refint\SaudeLivre.dll

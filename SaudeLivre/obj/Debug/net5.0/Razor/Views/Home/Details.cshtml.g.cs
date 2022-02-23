@@ -28,7 +28,9 @@ using SaudeLivre.Models;
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"21b63e1a9fdb2aa40ef93e7b6238d997d8ef5c9a", @"/Views/Home/Details.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"45074e686d8027c857990dd5e2ad9b97132cf551", @"/Views/_ViewImports.cshtml")]
+    #nullable restore
     public class Views_Home_Details : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<SaudeLivre.Models.Blog>
+    #nullable disable
     {
         #line hidden
         #pragma warning disable 0649
@@ -65,7 +67,7 @@ using SaudeLivre.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<!DOCTYPE html>\r\n\r\n<html>\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "21b63e1a9fdb2aa40ef93e7b6238d997d8ef5c9a3517", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "21b63e1a9fdb2aa40ef93e7b6238d997d8ef5c9a3563", async() => {
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>Details</title>\r\n");
             }
             );
@@ -79,7 +81,7 @@ using SaudeLivre.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "21b63e1a9fdb2aa40ef93e7b6238d997d8ef5c9a4578", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "21b63e1a9fdb2aa40ef93e7b6238d997d8ef5c9a4624", async() => {
                 WriteLiteral("\r\n\r\n<div class=\"container d-block text-justify\">\r\n      \r\n      <div class=\"row mt-2\">\r\n          <div class=\"col-md-12  mx-1\">\r\n              <hr/>\r\n              <h1> ");
 #nullable restore
 #line 21 "C:\Users\jr_ge\Desktop\Projeto Social\Squad06\SaudeLivre\Views\Home\Details.cshtml"
@@ -139,16 +141,26 @@ WriteAttributeValue("", 947, Html.DisplayFor(model => model.ImagemSecundaria), 9
             WriteLiteral("\r\n</html>\r\n");
         }
         #pragma warning restore 1998
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.ViewFeatures.IModelExpressionProvider ModelExpressionProvider { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.IUrlHelper Url { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.IUrlHelper Url { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.IViewComponentHelper Component { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.IViewComponentHelper Component { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IJsonHelper Json { get; private set; } = default!;
+        #nullable disable
+        #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<SaudeLivre.Models.Blog> Html { get; private set; }
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<SaudeLivre.Models.Blog> Html { get; private set; } = default!;
+        #nullable disable
     }
 }
 #pragma warning restore 1591
