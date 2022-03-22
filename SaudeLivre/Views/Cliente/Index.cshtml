@@ -13,9 +13,9 @@
 </head>
 <body style="background-color: var(--uva);">
     <main style="margin: auto; display: flex; flex-direction: column; min-height: calc(100vh - 134px); justify-content: center;">
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-warning border-bottom box-shadow mb-3" style="background-color: #3f37c9;">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-warning border-bottom box-shadow mb-3 admin-bg">
             <div class="container" >
-                <a class="navbar-brand" style="color: #fff;" asp-area="" asp-controller="Cliente" asp-action="Index">Modo Administrador</a>
+                <a class="navbar-brand admin" asp-area="" asp-controller="Cliente" asp-action="Index">Modo Administrador</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -33,7 +33,7 @@
             </div>
         </nav>
         <p>
-            <a class="btn" style="background-color: #3a0ca3;color: #fff;"asp-action="Create">Create New</a>
+            <a class="btn" style="background-color: #3a0ca3; color: #fff;"asp-action="Create">Create New</a>
         </p>
         <table class="table tabela-cadastro">
             <thead>

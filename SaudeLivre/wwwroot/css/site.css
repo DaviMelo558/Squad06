@@ -7,6 +7,8 @@ for details on configuring this project to bundle and minify static web assets. 
     --uva: #7716fc;
     --vinho: #5911bd;
     --test: rgba(89, 17, 189, 0.8);
+    --admin-bg: #3f37c9;
+    --admin: #fff;
 }
 
 * {
@@ -254,6 +256,14 @@ section.container h2 {
     padding: 10px;
 }
 /*fim seçao do blog */
+
+.admin {
+    color: var(--admin);
+}
+.admin-bg {
+    background-color: var(--admin-bg);
+}
+
 
 @media only screen and (max-width: 576px) {
     .nav-item :hover {
