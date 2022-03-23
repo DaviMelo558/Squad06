@@ -1,15 +1,87 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
-a.navbar-brand {
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+:root {
+    --uva: #7716fc;
+    --vinho: #5911bd;
+    --test: rgba(89, 17, 189, 0.8);
+    --admin-bg: #3f37c9;
+    --admin: #fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: var(--uva); */
+    background-color: #5911bd;
+    background-image: url('..//img/h-img-c.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 50%;
+    width: 100vw;
+    max-height: 100vh;
+    min-height: 400px;
+    height: 50vw;
+    z-index: -1;
+}
+
+.cabecalho {
+    width: 100vw;
+    max-height: 100vh;
+    min-height: 400px;
+    height: calc(50vw - 74px);
+}
+
+.titulo-header {
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    top: 6vw;
+    width: 270px;
+    color: #fff;
+    font-size: 3.2rem;
+    /* -webkit-text-stroke: 1.4px rgba(0, 0, 0, 0.9); */
+    text-shadow: 0 0 3px #000, 0px 4px 4px #00000070;
+}
+
+.header-item {
+    /* background: #0008;
+    border: 1px solid #fff; */
+    color: #fff;
+    font-size: 1.4rem;
+    max-width: 530px;
+    position: relative;
+    top: 8vw;
+    text-shadow: 1px 1px 2px #000;
+}
+
+nav > a {
     white-space: normal;
     text-align: center;
-    word-break: break-all;
+    word-break: keep-all;
+    color: #fff;
+}
+
+.navbar > .container {
+    align-items: flex-end;
 }
 
 /* Provide sufficient contrast against white background */
 a {
-    color: #0366d6;
+    word-break: break-all;
+}
+
+nav > a :hover {
+    color: #000;
+    text-decoration: underline;
 }
 
 .btn-primary {
@@ -17,7 +89,9 @@ a {
     background-color: #1b6ec2;
     border-color: #1861ac;
 }
-
+.nav-link {
+    word-break: break-word;
+}
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
     color: #fff;
@@ -27,14 +101,6 @@ a {
 
 /* Sticky footer styles
 -------------------------------------------------- */
-html {
-    font-size: 14px;
-}
-@media (min-width: 768px) {
-    html {
-        font-size: 16px;
-    }
-}
 
 .border-top {
     border-top: 1px solid #e5e5e5;
@@ -57,30 +123,44 @@ button.accept-policy {
 html {
     position: relative;
     min-height: 100%;
+    max-width: 100vw;
+    font-size: 14px;
 }
 
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
+    max-width: 100vw;
+    background-color: var(--vinho);
 }
 
 .footer {
     position: absolute;
     bottom: 0;
-    width: 100%;
+    min-width: 100vw;
     white-space: nowrap;
     line-height: 60px; /* Vertically center the text there */
+    background-color: var(--vinho);
 }
 
-div.card {
-    margin: 40px;
+.carousel-limit {
+    max-height: 565px;
 }
 
-.big {
-    font-size: 1.1rem;
+footer .container {
+    display: flex;
+    justify-content: center;
+}
+
+.big::first-letter {
+    font-size: 1.4rem;
     color: #8a2be2;
+    font-weight: bold;
+}
+
+p.big {
+    text-align: justify;
     text-indent: 30px;
-    /* background: #f00; */
 }
 
 section.container {
@@ -98,17 +178,128 @@ section.container h2 {
     margin-bottom: 40px;
 }
 
-table th{
-    background: #111;
+.container-sobre {
+    color: #fff;
+    background-color: #3a0ca3;
+    padding: 30px;
+    border-radius: 30px;
+    border: 1px solid;
+}
+
+.tabela-cadastro,
+.tabela-cadastro a {
     color: #fff;
 }
 
-table tr:nth-child(even) {
-    background: #f2f2f2;
-    color: #333;
+.tabela-cadastro td {
+    min-width: 155px;
+    max-width: 600px;
 }
 
-table tr:hover {
-    background-color: #777;
+.flags {
+    justify-content: space-evenly;
 }
 
+.responsive {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border: 1px solid #000;
+}
+
+.item {
+    margin: 20px;
+}
+
+.item-sobre {
+    max-width: 300px;
+    min-height: 190px;
+    text-align: center;
+    margin: 10px 0;
+    background-color: #3a0ca3;
+    border: 1px solid #fff;
+}
+
+.text-sobre {
+    text-align: justify;
+}
+
+.item > h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* seçao do blog */
+.blog-post {
+    border-radius: 10px 10px 0 0;
+    margin: 40px 0;
+    box-shadow: 10px 10px 10px #0008;
+}
+
+.blog-img {
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: auto;
+}
+
+.blog-link {
+    background-color: #441486;
+    color: #fff;
+    width: 114px;
+}
+
+.blog-link:hover {
+    background-color: #7b1bff;
+    color: #fff;
+}
+
+.blog-resumo {
+    background-color: #fff;
+    padding: 10px;
+}
+/*fim seçao do blog */
+
+.admin {
+    color: var(--admin);
+}
+.admin-bg {
+    background-color: var(--admin-bg);
+}
+
+
+@media only screen and (max-width: 576px) {
+    .nav-item :hover {
+        background-color: #b432e2b3;
+        border: 1px solid #fff;
+        border-radius: 20px;
+    }
+
+    .nav-item {
+        text-align: center;
+        word-break: break-word;
+    }
+
+    .cabecalho {
+        min-height: calc(400px - 74px);
+        padding: 0;
+    }
+
+    .titulo-header {
+        font-size: 2.2rem;
+        width: 180px;
+    }
+
+    .header-item {
+        font-size: 1rem;
+        text-align: justify;
+        max-width: 90vw;
+        padding-bottom: 20px;
+    }
+
+    #header-button {
+        width: 90vw;
+    }
+    .brand{
+        font-size: 1.4rem;
+    }
+}

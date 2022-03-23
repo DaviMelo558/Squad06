@@ -11,29 +11,48 @@
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
 </head>
-<body>
+<body style="background-color: var(--uva);">
 
-<table class="table">
+@* <table class="table">
+    <div class="blog-head-img">
+        
+    </div>
     <thead>
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Titulo)
             </th>
-
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-            <a asp-action="Details" asp-route-id="@item.IdBlog"> @Html.DisplayFor(modelItem => item.Titulo)</a>
-            </td>
-            <td>
-            @Html.DisplayFor(modelItem => item.TextoInicial)
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.IdBlog"> @Html.DisplayFor(modelItem => item.Titulo)</a>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TextoInicial)
+                </td>
+            </tr>
+        }
+    </tbody> *@
+    
+    <div style="display: flex; flex-direction: column;">
+        @foreach (var item in Model) {
+            <div class="blog-post">
+                <div class="blog-head-img">
+                    <img src=@Html.DisplayFor(modelItem => item.ImagemInicial) alt="" width="1110" class="blog-img">
+                </div>
+                <div class="blog-resumo" style="background-color: #fff;">
+                    <h1>@Html.DisplayFor(modelItem => item.Titulo)</h1>
+                    <p style="text-align: justify;">@Html.DisplayFor(modelItem => item.TextoInicial)</p>
+                    <br>
+                    <a class="btn blog-link" asp-action="Details" asp-route-id="@item.IdBlog">
+                        Leia mais
+                    </a>
+                </div>
+            </div>
+        }
+    </div>
 </body>
 </html>

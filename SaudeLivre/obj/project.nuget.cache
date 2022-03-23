@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+Utx19mLoA7y2qTVXVIw8WMgJkWFJuGwurXlrNoaSRFXmXSw/+6I128zhXV0OcEwz2BbwFHMhjgndfI65EyNfw==",
+  "dgSpecHash": "VOOsiAxWqVAdPWsx5uINR+/N+yORpiZbXLIFy3ZA57MZOm2csO1pmO+9FaSpEbl66WILXQBpXCvP/3BWo9wckg==",
   "success": true,
   "projectFilePath": "C:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\SaudeLivre.csproj",
   "expectedPackageFiles": [
@@ -130,8 +130,7 @@
     "C:\\Users\\jr_ge\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\jr_ge\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\jr_ge\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\jr_ge\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\jr_ge\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+    "C:\\Users\\jr_ge\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

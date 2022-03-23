@@ -11,54 +11,35 @@
     <meta name="viewport" content="width=device-width" />
     <title>Details</title>
 </head>
-<body>
+<body style="color: #fff;">
 
 <div class="container d-block text-justify">
       
-      <div class="row mt-2">
-          <div class="col-md-12  mx-1">
-              <hr/>
-              <h1> @Html.DisplayFor(model => model.Titulo) </h1>
-              <hr/>
-          </div>
-      </div>
-      <div class="row mt-2">
-          <div class="col-sm-4  mx-1">
-              <p> @Html.DisplayFor(model => model.TextoInicial) </p>
-          </div>
-          <div class="col-sm-7  mx-1">
-              <img class="position-relative w-100" src=@Html.DisplayFor(model => model.ImagemInicial) >
-          </div>
-      </div>
-      <div class="row mt-4">
-          <div class="col-sm-5  mx-1">
-              <img class="position-relative w-100" src=@Html.DisplayFor(model => model.ImagemSecundaria)>
-          </div>
-          <div class="col-sm-6  mx-1">
-              <p>
-                  @Html.DisplayFor(model => model.TextoSecundario)
-              </p>
-          </div>
-      </div>
-            
-   
-    
-      
-            
-       
-      
-    
-            
-        
-     
-     
-            
-      
-      
-      
-            
-     
-   
+    <div class="row mt-2">
+        <div class="col-md-12  mx-1">
+            <hr/>
+            <h1> @Html.DisplayFor(model => model.Titulo) </h1>
+            <hr/>
+        </div>
+    </div>
+    <div class="row mt-2">
+        <div class="col-sm-4  mx-1">
+            <p> @Html.DisplayFor(model => model.TextoInicial) </p>
+        </div>
+        <div class="col-sm-7  mx-1">
+            <img class="position-relative w-100" src=@Html.DisplayFor(model => model.ImagemInicial) >
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-sm-5  mx-1">
+            <img class="position-relative w-100" src=@Html.DisplayFor(model => model.ImagemSecundaria)>
+        </div>
+        <div class="col-sm-6  mx-1">
+            <p>
+                @Html.DisplayFor(model => model.TextoSecundario)
+            </p>
+        </div>
+    </div>
 </div>
 </body>
 </html>
