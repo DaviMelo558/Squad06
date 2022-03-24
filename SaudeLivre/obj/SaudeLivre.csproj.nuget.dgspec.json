@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\SaudeLivre.csproj": {}
+    "C:\\Users\\jr_ge\\Desktop\\Nova pasta\\Squad06\\SaudeLivre\\SaudeLivre.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\SaudeLivre.csproj": {
+    "C:\\Users\\jr_ge\\Desktop\\Nova pasta\\Squad06\\SaudeLivre\\SaudeLivre.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\SaudeLivre.csproj",
+        "projectUniqueName": "C:\\Users\\jr_ge\\Desktop\\Nova pasta\\Squad06\\SaudeLivre\\SaudeLivre.csproj",
         "projectName": "SaudeLivre",
-        "projectPath": "C:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\SaudeLivre.csproj",
+        "projectPath": "C:\\Users\\jr_ge\\Desktop\\Nova pasta\\Squad06\\SaudeLivre\\SaudeLivre.csproj",
         "packagesPath": "C:\\Users\\jr_ge\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\obj\\",
+        "outputPath": "C:\\Users\\jr_ge\\Desktop\\Nova pasta\\Squad06\\SaudeLivre\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jr_ge\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\jr_ge\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -77,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -18,7 +18,7 @@ namespace SaudeLivre.Migrations
                 .HasAnnotation("ProductVersion", "5.0.8")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("SaudeLivre.Blog", b =>
+            modelBuilder.Entity("SaudeLivre.Models.Blog", b =>
                 {
                     b.Property<int>("IdBlog")
                         .ValueGeneratedOnAdd()
@@ -50,7 +50,7 @@ namespace SaudeLivre.Migrations
                     b.ToTable("Blogs");
                 });
 
-            modelBuilder.Entity("SaudeLivre.Cliente", b =>
+            modelBuilder.Entity("SaudeLivre.Models.Cliente", b =>
                 {
                     b.Property<int>("IdCliente")
                         .ValueGeneratedOnAdd()

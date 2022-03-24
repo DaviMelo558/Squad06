@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VOOsiAxWqVAdPWsx5uINR+/N+yORpiZbXLIFy3ZA57MZOm2csO1pmO+9FaSpEbl66WILXQBpXCvP/3BWo9wckg==",
+  "dgSpecHash": "SQvvpZ2Q1O1/EJnvp3XWq9/3TMnKP0SEvCJ3V9DywUB08QNOmCexDlfxpSlnShMltBjNefbDW9+qugCuRPXgtQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jr_ge\\Desktop\\Projeto Social\\Squad06\\SaudeLivre\\SaudeLivre.csproj",
+  "projectFilePath": "C:\\Users\\jr_ge\\Desktop\\Nova pasta\\Squad06\\SaudeLivre\\SaudeLivre.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jr_ge\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\jr_ge\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
